@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/AnnieMaiArt/static/css/main.9530f6e1.chunk.css",
+    "main.js": "/AnnieMaiArt/static/js/main.6dac764e.chunk.js",
+    "main.js.map": "/AnnieMaiArt/static/js/main.6dac764e.chunk.js.map",
+    "runtime-main.js": "/AnnieMaiArt/static/js/runtime-main.fedef900.js",
+    "runtime-main.js.map": "/AnnieMaiArt/static/js/runtime-main.fedef900.js.map",
+    "static/js/2.aca43a34.chunk.js": "/AnnieMaiArt/static/js/2.aca43a34.chunk.js",
+    "static/js/2.aca43a34.chunk.js.map": "/AnnieMaiArt/static/js/2.aca43a34.chunk.js.map",
+    "index.html": "/AnnieMaiArt/index.html",
+    "static/css/main.9530f6e1.chunk.css.map": "/AnnieMaiArt/static/css/main.9530f6e1.chunk.css.map",
+    "static/js/2.aca43a34.chunk.js.LICENSE.txt": "/AnnieMaiArt/static/js/2.aca43a34.chunk.js.LICENSE.txt",
+    "static/media/blue.c33114e9.jpg": "/AnnieMaiArt/static/media/blue.c33114e9.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fedef900.js",
+    "static/js/2.aca43a34.chunk.js",
+    "static/css/main.9530f6e1.chunk.css",
+    "static/js/main.6dac764e.chunk.js"
+  ]
+}
