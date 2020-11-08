@@ -25,7 +25,7 @@ const Artwork: React.FC = () => {
                 const { img } = p;
                 return (
                     <Grid item xs={12} sm={6}>
-                        <Painting />
+                        <Painting props={img} />
                     </Grid>
                 );
             })}

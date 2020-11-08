@@ -4,13 +4,18 @@ import blue from '../../pictures/blue.jpg'
 import './index.css';
 import { Link } from 'react-router-dom'
 
-const Painting: React.FC = () => {
+interface Props {
+    props: any
+}
+
+const Painting: React.FC<Props> = (img) => {
+    const { props } = img;
     return (
         <>
             <Link to='/paint1'>
             <img src={blue} alt="blue" />
             <Typography align='center'>
-                Painting
+                {props}
             </Typography>
             </Link>
         </>
