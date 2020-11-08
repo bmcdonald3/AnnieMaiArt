@@ -13,9 +13,9 @@ const Painting: React.FC<Props> = (img) => {
     return (
         <>
             <Link to='/paint1'>
-            <img src={blue} alt="blue" />
+            <img src={props.blue} alt="blue" />
             <Typography align='center'>
-                {props}
+                
             </Typography>
             </Link>
         </>

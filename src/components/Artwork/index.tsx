@@ -1,20 +1,12 @@
 import React from 'react';
 import { Grid } from '@material-ui/core';
 import Painting from '../Painting';
+import blue from '../../pictures/blue.jpg'
 
 const Artwork: React.FC = () => {
     const paintings = [
         {
-            img: 'blue',
-        },
-        {
-            img: 'red',
-        },
-        {
-            img: 'black',
-        },
-        {
-            img: 'orange',
+            img: { blue },
         }
     ]
 
