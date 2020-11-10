@@ -11,8 +11,13 @@ const useStyles = makeStyles(() =>
   }),
 );
 
-const ClosePainting: React.FC = () => {
+const ClosePainting = (asd) => {
     const classes = useStyles();
+    asd = asd ? asd : {
+
+    }
+    const { title } = asd;
+    console.log(title);
     return (
         <>
             <Grid container spacing={3}>
@@ -21,12 +26,12 @@ const ClosePainting: React.FC = () => {
                 </Grid>
                 <Grid item sm={6}>
                     <Typography variant='h3'>
-                        Painting
+                        {asd.location.state.props.title}
                     </Typography>
                     <Typography>
-                        $100.00 <br/><br/>
-                        25 in x 12 in <br/>
-                        Mixed medium on Belgian linen canvas.
+                        ${asd.location.state.props.cost} <br/><br/>
+                        {asd.location.state.props.size} <br/>
+                        {asd.location.state.props.description}
                     </Typography>
                     <br/>
                     <Link to='/purchase'>
