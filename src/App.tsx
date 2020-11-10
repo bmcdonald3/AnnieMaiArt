@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './fonts.css'
 import Artwork from './components/Artwork';
 import Sidebar2 from './components/Sidebar2';

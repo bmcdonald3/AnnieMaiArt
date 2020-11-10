@@ -22,7 +22,6 @@ const Artwork: React.FC = () => {
         <>
         <Grid container spacing={4}>
             {paintings.map((p, i) => {
-                const { img } = p;
                 return (
                     <Grid item xs={12} sm={6}>
                         <Painting />
